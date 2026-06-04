@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# SwiftPM / Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+*.xcresult
+*.moved-aside
+
+# Local Codex/editor state
+.codex/
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+assets/releases/*.dmg
+assets/releases/*.zip
+assets/releases/*.pkg
+assets/releases/*.log
+!assets/releases/.gitkeep
+Resources/*.iconset/
+
+# Local runtime/configuration files
+.env
+.env.*
+*.local.env
+release.local.env
+config/*.local
+config/*.local.env
+*.xcconfig
+!*.example
+!config/*.example
+
+# Signing and private credentials
+*.p12
+*.cer
+*.cert
+*.key
+*.pem
+*.keychain
+*.keychain-db
+*.mobileprovision
+*.provisionprofile
+notarytool-profile.json
+github-token.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
